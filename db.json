@@ -3,14 +3,14 @@
     {
       "id": 1,
       "name": "Flatiron Brew",
-      "description": "Good",
+      "description": "Very Nice",
       "stock": "30",
       "beers_sold": "10",
       "price": "400",
       "image_url": "https://i.ibb.co/wQ4G0w1/flatiron-brew.png",
       "reviews": [
-        "Good",
-        "Good"
+        "I like it!",
+        "Nice beer!"
       ]
     },
     {
