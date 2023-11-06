@@ -1,0 +1,76 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>BEER HUB</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Great+Vibes|Open+Sans:400,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="./index.css" />
+    <script defer type="text/javascript" src="./index.js"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Availble beers</h1>
+      <nav>
+        <!--Display list of available beers -->
+        <ul id="beer-list">
+          <li>Beer One</li>
+          <li>Beer Two</li>
+          <li>Beer Three</li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="beer-details">
+        <h2 id="beer-name">Beer Name Goes Here</h2>
+        <img id="beer-image" alt="Beer Name Goes Here" src=""/>
+       
+        <h3>Beer Stock</h3>
+        <div class="four wide column">
+            <div class="ui cards" id="showing">
+              <div class="card">
+                <div class="content">
+                  <div class="description">
+                    <span id="beer-price">[X]</span> Kenya Shillings
+                    <br>
+                    <span id="beer-num">[X]</span> Remaining beers.
+                  </div>
+                </div>
+                <br>
+                <div class="extra content">
+                  <button id="buy-beer" class="ui orange button">
+                    Buy Beer
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <h3>Beer Description</h3>
+        <p>
+          <em id="beer-description">Beer Description Goes Here</em>
+        </p>
+       
+        <form id="description-form">
+          <label for="description">Customer's Unique Description of the beer:</label>
+          <textarea id="description"></textarea>
+          <button type="submit">Submit Description</button>
+        </form>
+
+        <h3>Customer's Feedback</h3>
+        <ul id="review-list">
+          <li>Replace with actual reviews</li>
+          <li>From the server</li>
+        </ul>
+        <form id="review-form">
+          <label for="review">Add your feedback:</label>
+          <textarea id="review"></textarea>
+          <button type="submit">SUBMIT FEEDBACK</button>
+        </form>
+      </div>
+    </main>
+  </body>
+</html>
