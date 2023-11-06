@@ -1,6 +1,7 @@
 # my-e-commerce-website
 
 Server Setup
+
 Run this command to get the backend started:
 
 $ json-server --watch db.json
