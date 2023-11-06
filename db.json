@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Flatiron Brew",
-      "description": "Beer Description\n",
+      "description": "Good",
       "stock": "30",
       "beers_sold": "10",
       "price": "400",
